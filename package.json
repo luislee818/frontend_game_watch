@@ -1,0 +1,17 @@
+{
+  "name": "game_watch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js | tap-spec",
+    "test:w": "tape-watch test/*.js | tap-spec"
+  },
+  "author": "Dapeng Li <luislee818@gmail.com> (http://dapengli.com)",
+  "license": "ISC",
+  "devDependencies": {
+    "tap-spec": "^4.1.1",
+    "tape": "^4.6.3",
+    "tape-watch": "^2.3.0"
+  }
+}
